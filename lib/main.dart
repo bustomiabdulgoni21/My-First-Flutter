@@ -22,9 +22,9 @@ class LoginPage extends StatelessWidget {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-            Color(0xFF8A2387),
-            Color(0xFFE94057),
-            Color(0xFFF27121),
+            Color(0xFF00BCD4),
+            Color(0xFF01579B),
+            Color(0xFF039BE5),
           ])),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -36,18 +36,18 @@ class LoginPage extends StatelessWidget {
           SizedBox(
             height: 15,
           ),
-          Text(
-            'Your Logo',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 20,
-            ),
-          ),
+          // Text(
+          //   'Your Logo',
+          //   style: TextStyle(
+          //     color: Colors.white,
+          //     fontSize: 20,
+          //   ),
+          // ),
           SizedBox(
-            height: 30,
+            height: 10,
           ),
           Container(
-            height: 480,
+            height: 500,
             width: 325,
             decoration: BoxDecoration(
                 color: Colors.white, borderRadius: BorderRadius.circular(10)),
@@ -55,7 +55,7 @@ class LoginPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 SizedBox(
-                  height: 30,
+                  height: 20,
                 ),
                 Text(
                   'Hello',
@@ -75,10 +75,10 @@ class LoginPage extends StatelessWidget {
                   width: 250,
                   child: TextField(
                     decoration: InputDecoration(
-                      labelText: 'Emails Address',
+                      labelText: 'Emails',
                       suffixIcon: Icon(
                         FontAwesomeIcons.envelope,
-                        size: 17,
+                        size: 18,
                       ),
                     ),
                   ),
@@ -91,7 +91,7 @@ class LoginPage extends StatelessWidget {
                       labelText: 'Password',
                       suffixIcon: Icon(
                         FontAwesomeIcons.eyeSlash,
-                        size: 17,
+                        size: 18,
                       ),
                     ),
                   ),
@@ -103,7 +103,7 @@ class LoginPage extends StatelessWidget {
                     children: [
                       Text(
                         'Forget Password',
-                        style: TextStyle(color: Colors.orangeAccent[700]),
+                        style: TextStyle(color: Colors.lightBlueAccent[700]),
                       )
                     ],
                   ),
@@ -121,9 +121,9 @@ class LoginPage extends StatelessWidget {
                             begin: Alignment.centerLeft,
                             end: Alignment.centerRight,
                             colors: [
-                              Color(0xFF8A2387),
-                              Color(0xFFE94057),
-                              Color(0xFFF27121),
+                              Color(0xFF00BCD4),
+                              Color(0xFF01579B),
+                              Color(0xFF039BE5),
                             ])),
                     child: Padding(
                       padding: EdgeInsets.all(12.0),
@@ -152,15 +152,15 @@ class LoginPage extends StatelessWidget {
                   children: [
                     Icon(
                       FontAwesomeIcons.facebookF,
-                      color: Colors.orangeAccent[700],
+                      color: Colors.lightBlueAccent[700],
                     ),
                     Icon(
                       FontAwesomeIcons.twitch,
-                      color: Colors.orangeAccent[700],
+                      color: Colors.lightBlueAccent[700],
                     ),
                     Icon(
                       FontAwesomeIcons.solidEnvelope,
-                      color: Colors.orangeAccent[700],
+                      color: Colors.lightBlueAccent[700],
                     ),
                   ],
                 ),
